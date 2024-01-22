@@ -3,7 +3,7 @@ import Navbar from '../../../components/Navbar';
 
 const getTopicById = async (id) => {
   try {
-    const res = await fetch(`http://localhost:3000/api/topics/${id}`, {
+    const res = await fetch(`${NEXT_PUBLIC_BACKEND_URL}/api/topics/${id}`, {
       cache: 'no-store',
     });
 
