@@ -1,7 +1,7 @@
 import Login from './login/page';
 import { getServerSession } from 'next-auth';
 import { redirect } from 'next/navigation';
-import { authOptions } from './api/auth/[...nextauth]/route';
+import { authOptions } from './api/auth/[...nextauth]/authOptions';
 import Dashboard from './dashboard/page';
 import Navbar from '../components/Navbar';
 import Topics from './topics/page';
