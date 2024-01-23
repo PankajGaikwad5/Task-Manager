@@ -50,7 +50,7 @@ const handler = NextAuth(authOptions);
 // export const GET = handler;
 // export const POST = handler;
 export { authOptions };
-export default handler;
+// export default handler;
 
 // Export named functions for HTTP methods
 export const GET = (req, res) => handler(req, res);
